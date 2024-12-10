@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/leaflet.css"/>
+        <link rel="stylesheet" href="css/jquery-ui.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+        <title> Contact Us </title>
+    </head>
+    <nav class="navbar">
+        <img id="logo" src="imgs/logoopti2.png">
+        <div>
+            <a href="index.html">Home</a> 
+            <a href="products.html">Products/Services</a>
+            <a href="cart.html">Your Cart</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="aboutus.html">About Us</a>  
+        </div>
+    </nav>
+    <body>
+        <main>
+            <h1> <u>ANY ISSUES?</u> <i>PRODUCT HELP?</i> <b><u>CONTACT US!</u></b></h1>
+            <p> Contacting us is the best way to make any of your questions answered using our easy to use form which takes <u>less then 5 mintues to fill out!</u> <small> (Form is only available to United States customers) </small></p>
+            <div class="contactformdivalign">
+                <div class="contactformdiv"> 
+                    <form id="contactform" action="">
+                        <ul>
+                            <li>
+                                <label> First Name: </label>
+                                <input id="firstname" type="text" placeholder="Enter your first name"> <span style="color: red;"> * </span>
+                            </li>
+                            <li>
+                                <label> Last Name: </label>
+                                <input id="lastname" type="text" placeholder="Enter your last name"> <span style="color: red;"> * </span>
+                            </li>
+                            <li>
+                                <label> State: </label>
+                                <select id="stateSelect" name="stateSelect"> <!-- json file from https://gist.github.com/mshafrir/2646763#file-states_titlecase-json -->
+                                    <option value=""> Select a state</option> 
+                                </select> <span id="stateerror" style="color: red;"> * </span>
+                            </li>
+                            <li>
+                                <label> Phone Number: </label>
+                                <input id="phonenumber" type="text" placeholder="000-000-0000"> <span style="color: red;"> * </span>
+                            </li>
+                            <li>
+                                <label> Describe your issue: </label>
+                                <input id="issue" type="text" placeholder="Type here"> <span style="color: red;"> * </span>
+                            </li>
+                        </ul>
+                        <div id="submitbuttoncontact">
+                            <input class="ui-button ui-widget ui-corner-all" id="submitbutton" type="submit">
+                        </div>
+                        <div class="dialogbox" id="dialogc1" style="display: none;" title="Form Submitted"><p> Thank you for your feedback, expect a call back in the next two business days!</p></div>
+                        <!-- <div>
+                            <p id="submissiontext"></p>
+                        </div> -->
+                    </form>
+                </div>
+            </div>
+            <hr class="homeboxline">
+            <div class="contactcontainer">
+                <div class="textcontact">
+                    <h2> FORM NOT WORKING? </h2>
+                    <p> Contact us in person or over phone at our corprate office open from: </p>
+                    <p> Monday: 5:30 AM - 7:00 PM <br> Tuesday: 5:30 AM - 7:00 PM <br> Wednesday: 5:30 AM - 7:00 PM <br> Thrusday: 5:30 AM - 7:00 PM <br> Friday: 10:00 AM - 5:00 PM </p>
+                </div>
+                <div class="mapcontact">
+                    <p> Headquarters location is in the red circle. State your name and describe your issue when talking to front desk.  </p>
+                    <div id="map"></div>
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <hr>
+        <p>Copyright &copy; 2024 Dominik Clark </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/leafletconfig.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/contactform.js"></script>
+</html>

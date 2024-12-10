@@ -1,0 +1,110 @@
+/* STYLES FOR THE WHOLE WEBSITE (ALL PAGES) */
+#logo {
+    display: inline-block;
+}
+.navbar {
+    width: 100%;
+    height: max-content;
+    background-color: #242424;
+    border: 2px solid #242424;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+}
+.navbar div {
+    display: inline;
+    float: right;
+}
+.navbar a{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;
+    line-height: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: right;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+html {
+    background-color: #011425;
+}
+h1 { 
+    color: #ffffff;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px #ffffff;
+    text-align: center;
+    padding-top: 2%;
+}
+h2 {
+    color: #ffffff;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px #ffffff;
+    text-align: center;
+    padding-top: 2%;
+}
+p {
+    color: #ffffff;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+main {
+    background-color: #5c7c89;
+    box-shadow: #1f4959 5px 5px;
+    border: 0px solid #1f4959;
+    border-radius: 5px;
+}
+hr {
+    width: 50%;
+    color: #ffffff;
+    height: 5px;
+    background-color: #ffffff;
+    border: none;
+}
+footer {
+    padding-top: 2%;
+    text-align: center;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+small {
+    font-size: xx-small;
+    text-align: center;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+/*-------------------------------------------------------------------------------------------------*/
+/* HOMEPAGE (index.html) STYLES */
+.homep {
+    font-size: 24px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+.homeslideshow {
+    display: grid;
+    place-items: center;
+}
+.homeboxline {
+    width: 85%;
+    color: #ffffff;
+    height: 5px;
+    background-color: #ffffff;
+    border: none;
+}
+/*-------------------------------------------------------------------------------------------------*/
+/* PRODUCTPAGE (products.html) STYLES */
+
+/*-------------------------------------------------------------------------------------------------*/
+/* CARTPAGE (cart.html) STYLES */
+
+/*-------------------------------------------------------------------------------------------------*/
+/* CONTACTPAGE (contact.html) STYLES */
+
+/*-------------------------------------------------------------------------------------------------*/
+/* CONFIRMEDORDERPAGE (confirmed.html) STYLES */

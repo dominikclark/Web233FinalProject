@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <title> Cart </title>
+    </head>
+    <nav class="navbar">
+        <img id="logo" src="imgs/logoopti2.png">
+        <div>
+            <a href="index.html">Home</a> 
+            <a href="products.html">Products/Services</a>
+            <a href="cart.html">Your Cart</a>
+            <a href="contact.html">Contact Us</a> 
+        </div>
+    </nav>
+    <body>
+        <main>
+            <h1>YOUR CART</h1>
+            <form id="cartform" action="confirmed.html" action="post">
+                <div class="cartgrid">
+                    <div class="cartitems" id="cartitems">
+                        <div class="cartsummarybox1">
+                            <h2> YOUR ITEMS </h2>
+                            <div><h1>NOTHING TO SEE HERE...</h1> <p style="padding-bottom: 25%;"> There is nothing in your cart! Add something or update the cart to show items. </p> </div> <!--Empty Cart-->
+                            <!-- <div class="cartitembox">
+                                <div class="cartimgbox">
+                                    <img class="cartitemimage" src="imgs/thumb/Surface.jpg">
+                                    <div class="cartiteminput">
+                                        <input min="0" max="10" value="" type="number">
+                                    </div>
+                                    <h3 class="cartitemtitle"> SURFACE PRO </h3> 
+                                    <span class="cartitemprice"> $899.99</span>
+                                </div>
+                            </div> -->
+                            <!-- <div class="cartbuttonalign">
+                                <button onclick="updateCart();" type="button" class="updatecartbutton"> UPDATE CART</button>
+                            </div> -->
+                            <div class="cartbuttonalign">
+                                <button id="loadcartbutton" type="button" class="updatecartbutton"> LOAD CART</button>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="cartsummary" id="cartsummary">
+                        <div class="cartsummarybox1">
+                            <h2> SUMMARY </h2>
+                            <div class="cartsummarybox2"> <h3 class="priceinfotext"> SUBTOTAL: </h3><span class="pricetext">$0.00</span></div>
+                            <div class="cartsummarybox2"> <h3 class="priceinfotext"> SALES TAX: </h3><span class="pricetext">$0.00</span></div>
+                            <div class="cartsummarybox2"> <h3 class="priceinfotext"> SHIPPING: </h3><span class="pricetext">$0.00</span></div>
+                            <div class="cartsummarybox2"> <h3 class="priceinfotext"> TOTAL: </h3><span class="pricetext">$0.00</span></div>
+                            <div class="cartbuttonalign"><button id="cartsubbutton" type="submit" disabled class="cartbuttonstyle2">SUBMIT ORDER</button></div>
+                        </div>
+                    </div>
+                </div>  
+            </form>
+        </main>
+    </body>
+    <footer>
+        <hr>
+        <p>Copyright &copy; 2024 Dominik Clark </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/order.js"></script>
+    <script src="js/orderline.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/loadcart.js"></script>
+</html>

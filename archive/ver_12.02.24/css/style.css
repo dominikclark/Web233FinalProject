@@ -1,0 +1,295 @@
+/* STYLES FOR THE WHOLE WEBSITE (ALL PAGES) */
+#logo {
+    display: inline-block;
+}
+.navbar {
+    width: 100%;
+    height: max-content;
+    background-color: #242424;
+    border: 2px solid #242424;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+}
+.navbar div {
+    display: inline;
+    float: right;
+}
+.navbar a{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;
+    line-height: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: right;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+html {
+    background-color: #011425;
+}
+h1 { 
+    color: #ffffff;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px #ffffff;
+    text-align: center;
+    padding-top: 2%;
+}
+h2 {
+    color: #ffffff;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px #ffffff;
+    text-align: center;
+    padding-top: 2%;
+}
+h3 {
+    color: #ffffff;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+p {
+    color: #ffffff;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+main {
+    background-color: #5c7c89;
+    box-shadow: #1f4959 5px 5px;
+    border: 0px solid #1f4959;
+    border-radius: 5px;
+}
+hr {
+    width: 50%;
+    color: #ffffff;
+    height: 5px;
+    background-color: #ffffff;
+    border: none;
+}
+footer {
+    padding-top: 2%;
+    text-align: center;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+small {
+    font-size: xx-small;
+    text-align: center;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+.boxp {
+    font-size: 24px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+span {
+    color: #ffffff;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+}
+/*-------------------------------------------------------------------------------------------------*/
+/* HOMEPAGE (index.html) STYLES */
+.homeslideshow {
+    display: grid;
+    place-items: center;
+}
+.homeboxline {
+    width: 85%;
+    color: #ffffff;
+    height: 5px;
+    background-color: #ffffff;
+    border: none;
+}
+/*-------------------------------------------------------------------------------------------------*/
+/* PRODUCTPAGE (products.html) STYLES */
+.gridsetup {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.productbox {
+    background-color: #1f4959;
+    box-shadow: #011425 5px 5px;
+    border: 0px solid #011425;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.productimagesalign {
+    display: grid;
+    place-items: center;
+}
+.productimagesproperties{
+    border-radius: 10px;
+    border-color: #ffffff;
+    border: solid 5px #ffffff;
+}
+.productinfop {
+    font-size: medium;
+    font-style: italic;
+}
+.cartbuttonalign {
+    display: grid;
+    place-items: center;
+    padding-bottom: 10px;
+}
+.cartbuttonstyle {
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: #ffffff;
+    width: max-content;
+    height: max-content;
+    background-color: #5c7c89;
+    border: 0px solid #1f4959;
+    box-shadow: #011425 3px 5px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+.priceinfo {
+    text-shadow: 1px 1px 2px #ffffff;
+    font-weight: bold;
+}
+.lb-caption { /* Used to config the lightbox plguin caption */
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+.dialogbox {
+    display: none;
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+/* CARTPAGE (cart.html) STYLES */
+.cartgrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+.cartitems {
+    background-color: #1f4959;
+    box-shadow: #011425 5px 5px;
+    border: 0px solid #011425;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.cartsummary {
+    background-color: #1f4959;
+    box-shadow: #011425 5px 5px;
+    border: 0px solid #011425;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.priceinfotext{
+    display: inline-block;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    width: max-content;
+}
+.pricetext{
+    padding-left: 2%;
+    width: max-content;
+    display: inline-block;
+    text-align: right;
+    font-size: larger;
+}
+.cartbuttonstyle2 {
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: #ffffff;
+    width: max-content;
+    height: max-content;
+    background-color: #1f4959; 
+    border: 0px solid #5c7c89; 
+    box-shadow: #011425 3px 5px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+.cartitembox {
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: #ffffff;
+    height: max-content;
+    background-color: #5c7c89; 
+    border: 0px solid #5c7c89; 
+    box-shadow: #011425 3px 5px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px #ffffff;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.cartitemimage {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    width: 30%;
+    display: flex;
+    justify-content: left;
+}
+.cartimgbox{
+    width: max-content;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.cartitemtitle {
+    padding-left: 15%;
+    text-align: left;
+}
+.cartitemprice {
+    text-align: right;
+    padding-left: 15%;
+}
+.cartiteminput{
+    padding-left: 15%;
+    width: min-content;
+}
+.updatecartbutton {
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: #ffffff;
+    width: max-content;
+    height: max-content;
+    background-color: #1f4959; 
+    border: 0px solid #5c7c89; 
+    box-shadow: #011425 3px 5px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+/*-------------------------------------------------------------------------------------------------*/
+/* CONTACTPAGE (contact.html) STYLES */
+
+/*-------------------------------------------------------------------------------------------------*/
+/* CONFIRMEDORDERPAGE (confirmed.html) STYLES */
+.summaryframe {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+.ordersummary {
+    background-color: #1f4959;
+    box-shadow: #011425 5px 5px;
+    border: 0px solid #011425;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#logoconfirmp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
