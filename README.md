@@ -8,4 +8,4 @@ My final project for the WEB233 class at Rock Valley College. The class mostly t
 # Project Timeframe
 This website took about a month to complete in class with three checkpoints along the way to make sure everyone is progressing to get the project done.
 # Summary
-Overall this project is a huge monument in my web development journy featuring modern easy to use UI and attractive styling. I'm very proud of this project for what it is and may update in the future when I learn more tricks with HTML, CSS and JavaScript.
+Overall this project is a huge monument in my web development journey featuring modern easy to use UI and attractive styling. I'm very proud of this project for what it is and may update in the future when I learn more tricks with HTML, CSS and JavaScript.
