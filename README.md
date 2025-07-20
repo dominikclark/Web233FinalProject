@@ -1,5 +1,5 @@
 # Intro
-My final project for the WEB233 class at Rock Valley College. The class mostly teaches you about JavaScript and all of the basics with the code. Note that this code is not mean't to be edited or used for any other use and I hold all copyright permissions with it. You can download in on your device to use to look at the site but don't reuse this please. 
+My final project for the WEB233 class in college. The class mostly teaches you about JavaScript and all of the basics with the code. Note that this code is not mean't to be edited or used for any other use and I hold all copyright permissions with it. You can download in on your device to use to look at the site but don't reuse this please. 
 # Features
 1. All files written in HTML5, CSS and JavaScript.
 2. Source images used from manufacture websites for computers along with the prices and specs of the unit for sale.
